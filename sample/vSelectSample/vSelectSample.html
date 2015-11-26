@@ -1,0 +1,13 @@
+<div style='margin-top: 30px;' ng-controller='vSelectSampleCtrl'>
+    <div class='col-xs-6'>
+        <textarea rows='10' class='form-control' ng-model='selectTestContent'></textarea>
+        <div ng-if='optionError'>{{optionError}}</div>
+        <div>
+            <button class='btn btn-success' style='width: 80px; margin-top: 20px;' ng-click='haveAShot()'>Try!</button>
+            <button class='btn btn-primary' style='width: 80px; margin-top: 20px;' ng-click='hide()'>Hide</button>
+        </div>
+    </div>
+    <div class='col-xs-4'>
+        <vselect config='selectConfig' model='selectTest'></vselect>
+    </div>
+</div>

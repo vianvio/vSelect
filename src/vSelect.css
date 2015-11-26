@@ -1,0 +1,62 @@
+.vSelect-holder input[type='text'] {
+  height: 24px;
+  font-size: 12px;
+  padding: 0px 5px 0px;
+}
+
+.vSelect-holder label{
+  max-width: none;
+}
+
+.vSelect-holder .input-group input {
+  background-color: #fff;
+}
+
+.vSelect-holder .dropdown-list {
+  /*width: 100%;*/
+  width: auto;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 4px;
+  top: 1px;
+  z-index: 1000;
+}
+
+.vSelect-holder .btnShowAll {
+  width: 100%;
+  height: 30px;
+  border-top: 1px solid #ccc;
+  line-height: 30px;
+  text-align: center;
+}
+
+.vSelect-holder .btnShowAll:hover{
+  background-color: #f0f0f0;
+}
+
+.vSelect-holder .dropdown-list .checkbox {
+  padding: 2.5px 5px 2.5px 5px;
+  cursor: pointer;
+}
+
+.vSelect-holder .input-group-btn i {
+  font-size: 12px;
+}
+
+.vSelect-holder .input-group-btn button {
+  padding: 1px 7px 1px 7px;
+  outline: none;
+}
+
+.vSelect-holder .label-single{
+  padding-left: 0px;
+}
+
+.vSelect-holder .single-select.checkbox:hover{
+  background-color: #f5f5f5;
+}
+
+.vSelect-holder .label-multi{
+  padding-left: 20px;
+}
